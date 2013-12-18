@@ -17,8 +17,6 @@
 		F933430C15FD16D500D983E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F933430A15FD16D500D983E3 /* InfoPlist.strings */; };
 		F933430E15FD16D500D983E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F933430D15FD16D500D983E3 /* main.m */; };
 		F933431215FD16D500D983E3 /* SHNumbersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F933431115FD16D500D983E3 /* SHNumbersAppDelegate.m */; };
-		F98267AB16029A8800AE84AC /* SHDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98267A916029A8800AE84AC /* SHDetailTableViewController.m */; };
-		F98267AC16029A8800AE84AC /* SHDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98267AA16029A8800AE84AC /* SHDetailTableViewController.xib */; };
 		F98267BB1603B86900AE84AC /* SHNumberStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F98267BA1603B86900AE84AC /* SHNumberStore.m */; };
 		F98267DC1603F05B00AE84AC /* SHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98267DA1603F05B00AE84AC /* SHDetailViewController.m */; };
 		F98267DD1603F05B00AE84AC /* SHDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98267DB1603F05B00AE84AC /* SHDetailViewController.xib */; };
@@ -33,6 +31,8 @@
 		F9B9416716270B9C00403BF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B9416616270B9C00403BF8 /* Default-568h@2x.png */; };
 		F9B94169162711CA00403BF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B94168162711CA00403BF8 /* Default@2x.png */; };
 		F9B9416B162711D800403BF8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B9416A162711D800403BF8 /* Default.png */; };
+		F9D6F8EC18623B2F000EA917 /* SHDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D6F8E918623B2F000EA917 /* SHDetailTableViewController.m */; };
+		F9D6F8ED18623B2F000EA917 /* SHDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D6F8EA18623B2F000EA917 /* SHDetailTableViewController.xib */; };
 		F9FDC24315FF86DF00B9FD7E /* SHCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FDC24215FF86DF00B9FD7E /* SHCalculations.m */; };
 /* End PBXBuildFile section */
 
@@ -43,19 +43,16 @@
 		F924DB1615FE7C8500F35F0F /* SHDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDetailsViewController.h; sourceTree = "<group>"; };
 		F924DB1715FE7C8500F35F0F /* SHDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDetailsViewController.m; sourceTree = "<group>"; };
 		F924DB1815FE7C8500F35F0F /* SHDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHDetailsViewController.xib; sourceTree = "<group>"; };
-		F93342FD15FD16D500D983E3 /* Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93342FD15FD16D500D983E3 /* Nbr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nbr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F933430115FD16D500D983E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F933430315FD16D500D983E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F933430515FD16D500D983E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F933430915FD16D500D983E3 /* Numbers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Numbers-Info.plist"; sourceTree = "<group>"; };
+		F933430915FD16D500D983E3 /* Nbr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nbr-Info.plist"; sourceTree = "<group>"; };
 		F933430B15FD16D500D983E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F933430D15FD16D500D983E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F933430F15FD16D500D983E3 /* Numbers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Numbers-Prefix.pch"; sourceTree = "<group>"; };
+		F933430F15FD16D500D983E3 /* Nbr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nbr-Prefix.pch"; sourceTree = "<group>"; };
 		F933431015FD16D500D983E3 /* SHNumbersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNumbersAppDelegate.h; sourceTree = "<group>"; };
 		F933431115FD16D500D983E3 /* SHNumbersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNumbersAppDelegate.m; sourceTree = "<group>"; };
-		F98267A816029A8800AE84AC /* SHDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHDetailTableViewController.h; path = ../SHDetailTableViewController.h; sourceTree = "<group>"; };
-		F98267A916029A8800AE84AC /* SHDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHDetailTableViewController.m; path = ../SHDetailTableViewController.m; sourceTree = "<group>"; };
-		F98267AA16029A8800AE84AC /* SHDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SHDetailTableViewController.xib; path = ../SHDetailTableViewController.xib; sourceTree = "<group>"; };
 		F98267B91603B86900AE84AC /* SHNumberStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNumberStore.h; sourceTree = "<group>"; };
 		F98267BA1603B86900AE84AC /* SHNumberStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNumberStore.m; sourceTree = "<group>"; };
 		F98267D91603F05B00AE84AC /* SHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDetailViewController.h; sourceTree = "<group>"; };
@@ -72,6 +69,9 @@
 		F9B9416616270B9C00403BF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9B94168162711CA00403BF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F9B9416A162711D800403BF8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F9D6F8E918623B2F000EA917 /* SHDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDetailTableViewController.m; sourceTree = "<group>"; };
+		F9D6F8EA18623B2F000EA917 /* SHDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHDetailTableViewController.xib; sourceTree = "<group>"; };
+		F9D6F8EB18623B2F000EA917 /* SHDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDetailTableViewController.h; sourceTree = "<group>"; };
 		F9FDC24115FF86DF00B9FD7E /* SHCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCalculations.h; sourceTree = "<group>"; };
 		F9FDC24215FF86DF00B9FD7E /* SHCalculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCalculations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 		F93342FE15FD16D500D983E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F93342FD15FD16D500D983E3 /* Numbers.app */,
+				F93342FD15FD16D500D983E3 /* Nbr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,14 +123,14 @@
 		F933430715FD16D500D983E3 /* Numbers */ = {
 			isa = PBXGroup;
 			children = (
+				F9D6F8E918623B2F000EA917 /* SHDetailTableViewController.m */,
+				F9D6F8EA18623B2F000EA917 /* SHDetailTableViewController.xib */,
+				F9D6F8EB18623B2F000EA917 /* SHDetailTableViewController.h */,
 				F933431015FD16D500D983E3 /* SHNumbersAppDelegate.h */,
 				F933431115FD16D500D983E3 /* SHNumbersAppDelegate.m */,
 				F924DB1015FE7C6600F35F0F /* SHNumbersViewController.h */,
 				F924DB1115FE7C6600F35F0F /* SHNumbersViewController.m */,
 				F924DB1215FE7C6600F35F0F /* SHNumbersViewController.xib */,
-				F98267A816029A8800AE84AC /* SHDetailTableViewController.h */,
-				F98267A916029A8800AE84AC /* SHDetailTableViewController.m */,
-				F98267AA16029A8800AE84AC /* SHDetailTableViewController.xib */,
 				F98267D91603F05B00AE84AC /* SHDetailViewController.h */,
 				F98267DA1603F05B00AE84AC /* SHDetailViewController.m */,
 				F98267DB1603F05B00AE84AC /* SHDetailViewController.xib */,
@@ -145,10 +145,10 @@
 		F933430815FD16D500D983E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F933430915FD16D500D983E3 /* Numbers-Info.plist */,
+				F933430915FD16D500D983E3 /* Nbr-Info.plist */,
 				F933430A15FD16D500D983E3 /* InfoPlist.strings */,
 				F933430D15FD16D500D983E3 /* main.m */,
-				F933430F15FD16D500D983E3 /* Numbers-Prefix.pch */,
+				F933430F15FD16D500D983E3 /* Nbr-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			path = Numbers;
@@ -194,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F93342FC15FD16D500D983E3 /* Numbers */ = {
+		F93342FC15FD16D500D983E3 /* Nbr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F933431515FD16D500D983E3 /* Build configuration list for PBXNativeTarget "Numbers" */;
+			buildConfigurationList = F933431515FD16D500D983E3 /* Build configuration list for PBXNativeTarget "Nbr" */;
 			buildPhases = (
 				F93342F915FD16D500D983E3 /* Sources */,
 				F93342FA15FD16D500D983E3 /* Frameworks */,
@@ -206,9 +206,9 @@
 			);
 			dependencies = (
 			);
-			name = Numbers;
+			name = Nbr;
 			productName = Numbers;
-			productReference = F93342FD15FD16D500D983E3 /* Numbers.app */;
+			productReference = F93342FD15FD16D500D983E3 /* Nbr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Oscar Rundh";
 			};
-			buildConfigurationList = F93342F715FD16D500D983E3 /* Build configuration list for PBXProject "Numbers" */;
+			buildConfigurationList = F93342F715FD16D500D983E3 /* Build configuration list for PBXProject "Nbr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,7 +233,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F93342FC15FD16D500D983E3 /* Numbers */,
+				F93342FC15FD16D500D983E3 /* Nbr */,
 			);
 		};
 /* End PBXProject section */
@@ -246,9 +246,9 @@
 				F933430C15FD16D500D983E3 /* InfoPlist.strings in Resources */,
 				F924DB1415FE7C6600F35F0F /* SHNumbersViewController.xib in Resources */,
 				F924DB1A15FE7C8500F35F0F /* SHDetailsViewController.xib in Resources */,
-				F98267AC16029A8800AE84AC /* SHDetailTableViewController.xib in Resources */,
 				F98267DD1603F05B00AE84AC /* SHDetailViewController.xib in Resources */,
 				F9B9416716270B9C00403BF8 /* Default-568h@2x.png in Resources */,
+				F9D6F8ED18623B2F000EA917 /* SHDetailTableViewController.xib in Resources */,
 				F9B94169162711CA00403BF8 /* Default@2x.png in Resources */,
 				F9B9416B162711D800403BF8 /* Default.png in Resources */,
 				F99BD5561628189C0060453E /* AppIcon.png in Resources */,
@@ -274,7 +274,7 @@
 				F924DB1315FE7C6600F35F0F /* SHNumbersViewController.m in Sources */,
 				F924DB1915FE7C8500F35F0F /* SHDetailsViewController.m in Sources */,
 				F9FDC24315FF86DF00B9FD7E /* SHCalculations.m in Sources */,
-				F98267AB16029A8800AE84AC /* SHDetailTableViewController.m in Sources */,
+				F9D6F8EC18623B2F000EA917 /* SHDetailTableViewController.m in Sources */,
 				F98267BB1603B86900AE84AC /* SHNumberStore.m in Sources */,
 				F98267DC1603F05B00AE84AC /* SHDetailViewController.m in Sources */,
 			);
@@ -346,9 +346,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Numbers/Numbers-Prefix.pch";
-				INFOPLIST_FILE = "Numbers/Numbers-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Numbers/Nbr-Prefix.pch";
+				INFOPLIST_FILE = "Numbers/Nbr-Info.plist";
+				PRODUCT_NAME = Nbr;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -357,9 +357,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Numbers/Numbers-Prefix.pch";
-				INFOPLIST_FILE = "Numbers/Numbers-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Numbers/Nbr-Prefix.pch";
+				INFOPLIST_FILE = "Numbers/Nbr-Info.plist";
+				PRODUCT_NAME = Nbr;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -367,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F93342F715FD16D500D983E3 /* Build configuration list for PBXProject "Numbers" */ = {
+		F93342F715FD16D500D983E3 /* Build configuration list for PBXProject "Nbr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F933431315FD16D500D983E3 /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F933431515FD16D500D983E3 /* Build configuration list for PBXNativeTarget "Numbers" */ = {
+		F933431515FD16D500D983E3 /* Build configuration list for PBXNativeTarget "Nbr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F933431615FD16D500D983E3 /* Debug */,

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F93342FC15FD16D500D983E3"
                BuildableName = "Numbers.app"
-               BlueprintName = "Numbers"
-               ReferencedContainer = "container:Numbers.xcodeproj">
+               BlueprintName = "Nbr"
+               ReferencedContainer = "container:Nbr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F93342FC15FD16D500D983E3"
             BuildableName = "Numbers.app"
-            BlueprintName = "Numbers"
-            ReferencedContainer = "container:Numbers.xcodeproj">
+            BlueprintName = "Nbr"
+            ReferencedContainer = "container:Nbr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F93342FC15FD16D500D983E3"
             BuildableName = "Numbers.app"
-            BlueprintName = "Numbers"
-            ReferencedContainer = "container:Numbers.xcodeproj">
+            BlueprintName = "Nbr"
+            ReferencedContainer = "container:Nbr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F93342FC15FD16D500D983E3"
             BuildableName = "Numbers.app"
-            BlueprintName = "Numbers"
-            ReferencedContainer = "container:Numbers.xcodeproj">
+            BlueprintName = "Nbr"
+            ReferencedContainer = "container:Nbr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
